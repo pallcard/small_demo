@@ -1,6 +1,6 @@
-package main.java.cn.wishhust.demo;
+package main.java.cn.wishhust.jmm;
 
-public class demo001 {
+public class Demo001 {
     private static boolean initFlag = false;
 //    private static volatile boolean initFlag = false;
 
