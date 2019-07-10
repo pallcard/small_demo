@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fea3afea-8684-408a-a95b-bca97162cbc3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/small_demo/main/java/cn/wishhust/demo/demo001$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/small_demo/main/java/cn/wishhust/demo/demo001$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/small_demo/main/java/cn/wishhust/demo/demo001.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/wishhust/demo/demo001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/wishhust/jmm/Demo001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/small_demo/main/java/cn/wishhust/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/small_demo/main/java/cn/wishhust/test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/wishhust/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/wishhust/test/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,20 +20,24 @@
           <entry key="project.open.time.114" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.56" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.61" value="1" />
+          <entry key="project.open.time.69" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="13" />
-          <entry key="Markdown" value="1" />
+          <entry key="JAVA" value="28" />
+          <entry key="Markdown" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2860" />
+          <entry key="JAVA" value="4766" />
           <entry key="Markdown" value="21" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
@@ -46,94 +47,94 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/reflection/Demo01.java">
+        <entry file="jar://E:/java/jdk/src.zip!/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="3100">
+              <caret line="150" column="11" selection-start-line="150" selection-start-column="11" selection-end-line="150" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo009.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/test/ExtendsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-724">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="250">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/test/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo017.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo014.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-26">
-              <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+            <state relative-caret-position="225">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo015.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo020.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-351">
-              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+            <state relative-caret-position="443">
+              <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo010.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/leetcode/Demo051.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" selection-start-line="15" selection-end-line="43" selection-end-column="1" />
+            <state relative-caret-position="100">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo011.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo019.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+            <state relative-caret-position="425">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo012.java">
+        <entry file="jar://E:/java/jdk/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1575">
-              <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+            <state relative-caret-position="35025">
+              <caret line="1464" column="15" selection-start-line="1464" selection-start-column="15" selection-end-line="1464" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo013.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/test/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+            <state relative-caret-position="925">
+              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="10" selection-start-column="10" selection-end-column="10" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/test/Test03.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/test/Test02.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="26" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -146,6 +147,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>int</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -181,8 +187,14 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo012.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo03.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo013.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wishhust/test/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo015.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wishhust/test/Test02.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wishhust/test/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wishhust/test/Test03.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wishhust/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo017.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wishhust/test/ExtendsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo020.java" />
       </list>
     </option>
   </component>
@@ -193,18 +205,17 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="471" />
-    <option name="y" value="66" />
+    <option name="y" value="49" />
     <option name="width" value="1306" />
-    <option name="height" value="660" />
+    <option name="height" value="670" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,6 +249,14 @@
               <item name="wishhust" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="small_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="small_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="wishhust" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -247,17 +266,19 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562405359391" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562719495639" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace2\small_demo\src\main\java\cn\wishhust\algorithm" />
-      <recent name="D:\workspace2\small_demo\src\main\java\cn\wishhust\reflection" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace2\small_demo\src\main\java\cn\wishhust" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace2\small_demo\src\main\java\cn\wishhust\algorithm" />
+      <recent name="D:\workspace2\small_demo\src\main\java\cn\wishhust\leetcode" />
+      <recent name="D:\workspace2\small_demo\src\main\java\cn\wishhust" />
+      <recent name="D:\workspace2\small_demo\src\main\java\cn\wishhust\reflection" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -272,9 +293,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo014">
-    <configuration name="Demo011" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.cn.wishhust.algorithm.Demo011" />
+  <component name="RunManager" selected="Application.Demo020">
+    <configuration name="Demo020" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.cn.wishhust.algorithm.Demo020" />
       <module name="small_demo" />
       <extension name="coverage">
         <pattern>
@@ -286,12 +307,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.cn.wishhust.algorithm.Demo012" />
+    <configuration name="ExtendsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.cn.wishhust.test.ExtendsTest" />
       <module name="small_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.cn.wishhust.algorithm.*" />
+          <option name="PATTERN" value="main.java.cn.wishhust.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,25 +320,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo013" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.cn.wishhust.algorithm.Demo013" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.cn.wishhust.test.Main" />
       <module name="small_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.cn.wishhust.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo014" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.cn.wishhust.algorithm.Demo014" />
-      <module name="small_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.cn.wishhust.algorithm.*" />
+          <option name="PATTERN" value="main.java.cn.wishhust.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -338,20 +346,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.cn.wishhust.test.Test03" />
+      <module name="small_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.cn.wishhust.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Demo011" />
-      <item itemvalue="Application.Demo012" />
-      <item itemvalue="Application.Demo013" />
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Demo014" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Test03" />
+      <item itemvalue="Application.ExtendsTest" />
+      <item itemvalue="Application.Demo020" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo014" />
+        <item itemvalue="Application.Demo020" />
+        <item itemvalue="Application.ExtendsTest" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Demo013" />
-        <item itemvalue="Application.Demo012" />
-        <item itemvalue="Application.Demo011" />
+        <item itemvalue="Application.Test03" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -369,19 +390,23 @@
       <workItem from="1562112050504" duration="6260000" />
       <workItem from="1562196418240" duration="9879000" />
       <workItem from="1562284106108" duration="1926000" />
-      <workItem from="1562372247420" duration="2548000" />
+      <workItem from="1562372247420" duration="4090000" />
+      <workItem from="1562468566517" duration="9263000" />
+      <workItem from="1562545165817" duration="1869000" />
+      <workItem from="1562672006228" duration="5323000" />
+      <workItem from="1562716671427" duration="2771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22924000" />
+    <option name="totallyTimeSpent" value="43692000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="214" y="103" width="1306" height="660" extended-state="0" />
+    <frame x="0" y="49" width="1306" height="670" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7887701" visible="true" weight="0.24799357" />
-      <window_info id="Structure" order="1" sideWeight="0.21122995" side_tool="true" visible="true" weight="0.24799357" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7245902" visible="true" weight="0.24879615" />
+      <window_info id="Structure" order="1" sideWeight="0.27540985" side_tool="true" visible="true" weight="0.24879615" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -390,15 +415,15 @@
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.253493" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.40313113" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.45983934" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Build" order="8" weight="0.28327644" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3187251" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.34063745" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.45381525" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -440,6 +465,30 @@
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/wishhust/test/ExtendsTest.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo020.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo020.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo020.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -462,10 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -483,6 +528,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo009.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo014.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo015.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" selection-start-line="8" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo016.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo011.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
@@ -497,6 +570,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo013.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -507,38 +587,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo013.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo009.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-724">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/reflection/reflection.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="25">
+            <caret line="6" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/test/Test.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22675">
+          <caret line="959" column="20" selection-start-line="959" selection-start-column="15" selection-end-line="959" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo018.java" />
+    <entry file="jar://E:/java/jdk/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3100">
+          <caret line="150" column="11" selection-start-line="150" selection-start-column="11" selection-end-line="150" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/test/ExtendsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo017.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/leetcode/Demo051.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo019.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35025">
+          <caret line="1464" column="15" selection-start-line="1464" selection-start-column="15" selection-end-line="1464" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/test/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/test/Test03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/test/Test02.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="1" />
+          <caret line="2" selection-start-line="2" selection-end-line="26" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo014.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo020.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo015.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-351">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        <state relative-caret-position="443">
+          <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
         </state>
       </provider>
     </entry>
