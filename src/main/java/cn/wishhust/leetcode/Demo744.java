@@ -33,10 +33,31 @@ public class Demo744 {
         return letters[mid];
     }
 
+    public static char nextGreatestLetter2(char[] letters, char target) {
+        int left = 0;
+        int right = letters.length-1;
+
+
+        // = 用得好
+        while (left <= right) {
+            int mid = (left+right)/2;
+            if (letters[mid] < target) {
+                left = mid+1;
+            } else  {
+                right = mid -1;
+            }
+        }
+
+
+        return left < letters.length ? letters[left]:letters[0];
+
+    }
+
+
     public static void main(String[] args) {
         // ["a","b","c","d","e","f","g","h","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
         //"c"
-        System.out.println(nextGreatestLetter(new char[]{'c','f','j'}, 'd'));
+        System.out.println(nextGreatestLetter2(new char[]{'c','f','j'}, 'd'));
     }
 
 }
