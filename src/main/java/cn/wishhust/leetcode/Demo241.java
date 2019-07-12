@@ -7,7 +7,7 @@ public class Demo241 {
     public static List<Integer> list = new ArrayList<>();
 
 
-
+    // 递归回溯法
     public static List<Integer> diffWaysToCompute(String input) {
         final String[] str = input.split("[+ \\- *]");
 
@@ -76,17 +76,20 @@ public class Demo241 {
     }
 
     // 分治法，碰到运算符号，递归求解前一半的值和后一半的值，然后根据运算符号，计算两者构成的值。
-    public static Map<String, List<Integer>> map = new HashMap<>();
+
     // 记录已经计算出来的字符串对应的值，避免重复计算。
+    public static Map<String, List<Integer>> map = new HashMap<>();
+
     public static List<Integer> diffWaysToCompute2(String input) {
         if(map.containsKey(input)) return map.get(input);
         List<Integer> list = new ArrayList<>();
         int len = input.length();
         for(int i = 0; i < len; i++) {
             char c = input.charAt(i);
-            if(c == '+' || c == '-' || c == '*') {  // 出现运算符号，递归求解前半段和后半段。
+            // 出现运算符号，递归求解前半段和后半段。
+            if(c == '+' || c == '-' || c == '*') {
                 List<Integer> left = diffWaysToCompute2(input.substring(0, i));
-                List<Integer> right = diffWaysToCompute2(input.substring(i+1, input.length()));
+                List<Integer> right = diffWaysToCompute2(input.substring(i+1));
                 // -1   =>  left:[[0]]  right:[[1]]
 
                 for(int l : left) {
@@ -106,8 +109,9 @@ public class Demo241 {
                 }
             }
         }
-        if(list.size() == 0) list.add(Integer.valueOf(input));
         // 单独一个数字的情况 (可能出现多位数)
+        if(list.size() == 0) list.add(Integer.valueOf(input));
+
         map.put(input, list);
         return list;
     }
@@ -118,11 +122,7 @@ public class Demo241 {
     public static void main(String[] args) {
         diffWaysToCompute("2*3-4*5");
         System.out.println(list);
-
         System.out.println(diffWaysToCompute2("2*3-4*5"));
-
-
-
     }
 }
 
