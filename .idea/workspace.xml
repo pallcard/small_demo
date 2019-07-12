@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fea3afea-8684-408a-a95b-bca97162cbc3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/wishhust/leetcode/Demo241.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/wishhust/leetcode/Demo241.java" afterDir="false" />
-    </list>
+    <list default="true" id="fea3afea-8684-408a-a95b-bca97162cbc3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,14 +26,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/leetcode/Demo095.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            <state relative-caret-position="465">
+              <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/leetcode/Demo279.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="53" column="42" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/leetcode/Demo127.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/util/Queue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="216" column="6" selection-start-line="216" selection-start-column="6" selection-end-line="216" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -123,6 +151,8 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/wishhust/leetcode/Demo034.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/wishhust/leetcode/Demo241.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/wishhust/leetcode/Demo095.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wishhust/leetcode/Demo279.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wishhust/leetcode/Demo127.java" />
       </list>
     </option>
   </component>
@@ -133,8 +163,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="428" />
-    <option name="y" value="317" />
+    <option name="x" value="748" />
+    <option name="y" value="209" />
     <option name="width" value="1739" />
     <option name="height" value="1097" />
   </component>
@@ -213,7 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo241">
+  <component name="RunManager" selected="Application.Demo127">
     <configuration name="Demo034" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.cn.wishhust.leetcode.Demo034" />
       <module name="small_demo" />
@@ -227,8 +257,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo069" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.cn.wishhust.leetcode.Demo069" />
+    <configuration name="Demo127" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.cn.wishhust.leetcode.Demo127" />
       <module name="small_demo" />
       <extension name="coverage">
         <pattern>
@@ -253,8 +283,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo540" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.cn.wishhust.leetcode.Demo540" />
+    <configuration name="Demo279" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.cn.wishhust.leetcode.Demo279" />
       <module name="small_demo" />
       <extension name="coverage">
         <pattern>
@@ -280,19 +310,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Demo069" />
       <item itemvalue="Application.Demo744" />
-      <item itemvalue="Application.Demo540" />
       <item itemvalue="Application.Demo034" />
       <item itemvalue="Application.Demo241" />
+      <item itemvalue="Application.Demo279" />
+      <item itemvalue="Application.Demo127" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo127" />
+        <item itemvalue="Application.Demo279" />
         <item itemvalue="Application.Demo241" />
         <item itemvalue="Application.Demo034" />
         <item itemvalue="Application.Demo744" />
-        <item itemvalue="Application.Demo540" />
-        <item itemvalue="Application.Demo069" />
       </list>
     </recent_temporary>
   </component>
@@ -332,10 +362,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="428" y="317" width="1739" height="1097" extended-state="0" />
+    <frame x="748" y="209" width="1739" height="1097" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.56508875" visible="true" weight="0.20506777" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.56508875" visible="true" weight="0.20506777" />
       <window_info id="Structure" order="1" sideWeight="0.34705076" side_tool="true" weight="0.20506777" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -346,7 +376,7 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4991161" weight="0.27462685" />
-      <window_info anchor="bottom" id="Debug" order="4" visible="true" weight="0.3273632" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.37711442" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49970537" weight="0.32935324" />
@@ -479,31 +509,22 @@
           <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/wishhust/leetcode/Demo279.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/wishhust/leetcode/Demo127.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo016.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo011.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo012.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/algorithm/Demo013.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -821,11 +842,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/leetcode/Demo095.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        <state relative-caret-position="465">
+          <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/leetcode/Demo279.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="216" column="6" selection-start-line="216" selection-start-column="6" selection-end-line="216" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wishhust/leetcode/Demo127.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
