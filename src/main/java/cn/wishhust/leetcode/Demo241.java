@@ -14,6 +14,7 @@ public class Demo241 {
         for (int i = 0; i < str.length; i++) {
             nums[i] = Integer.parseInt(nums[i]);
         }
+
         compute(input, str);
         list.sort(new Comparator<Integer>() {
             @Override
