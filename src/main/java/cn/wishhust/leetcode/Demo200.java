@@ -25,6 +25,7 @@ public class Demo200 {
             return;
         }
         grid[x][y] = '0';
+        
 
         for (int i = 0; i < direct.length; i++) {
             int prex = x + direct[i][0];
