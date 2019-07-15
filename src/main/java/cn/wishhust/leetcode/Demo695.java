@@ -2,6 +2,7 @@ package main.java.cn.wishhust.leetcode;
 
 public class Demo695 {
 
+
 //    public static boolean [][] visited;
 //
 //    public static int maxAreaOfIsland(int[][] grid) {
@@ -90,4 +91,5 @@ public class Demo695 {
                 {0,0,0,0,0,0,0,1,1,0,0,0,0}
         }));
     }
+
 }
