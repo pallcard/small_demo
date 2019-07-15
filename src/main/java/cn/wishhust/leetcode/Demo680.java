@@ -62,5 +62,6 @@ public class Demo680 {
 
     public static void main(String[] args) {
         System.out.println(validPalindrome("aeacdeaeaaaaaaeaedcae"));
+        System.out.println(validPalindrome2("aeacdeaeaaaaaaeaedcae"));
     }
 }
