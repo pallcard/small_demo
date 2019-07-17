@@ -6,11 +6,27 @@ import java.util.List;
 public class Demo046 {
     public static List<List<Integer>> list = new ArrayList<>();
 
+
+    /**
+     *           1 2 3  --  1 2 3
+     *                      1 3 2
+     *
+     * 1 2 3 --  2 1 3  --  2 1 3
+     *                      2 3 1
+     *
+     *           3 2 1  --  3 2 1
+     *                      3 1 2
+     * @param nums
+     * @return
+     */
+
     public static List<List<Integer>> permute(int[] nums) {
         permuteK(nums, 0);
         return list;
     }
 
+
+    // 交换法
     public static void permuteK(int [] nums, int k) {
         if (k >= nums.length) {
             return;
@@ -32,7 +48,7 @@ public class Demo046 {
             nums[i] = temp;
         }
     }
-
+    // 插入法 [1], [2,1] [1,2] ...
     public static List<List<Integer>> permute2(int[] nums) {
         List<List<Integer>> list = new ArrayList<>();
         List<Integer> numList = new ArrayList<>(nums.length);
@@ -58,6 +74,10 @@ public class Demo046 {
         }
 
         return list;
+    }
+    // DFS
+    public static List<List<Integer>> permute3(int[] nums) {
+
     }
 
     public static void main(String[] args) {

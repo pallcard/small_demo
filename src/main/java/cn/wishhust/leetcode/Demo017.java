@@ -33,7 +33,7 @@ public class Demo017 {
     }
 
     public static void main(String[] args) {
-        System.out.println(letterCombinations("23"));
+        System.out.println(letterCombinations(""));
 
     }
 
