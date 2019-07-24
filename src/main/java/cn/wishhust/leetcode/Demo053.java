@@ -14,7 +14,7 @@ public class Demo053 {
 //        }
 //        dp[0] = nums[0];
 //        for (int i = 1; i < nums.length; i++) {
-//            dp[i] = Math.max(Math.max(dp[i-1],dp[i-1]+nums[i]),nums[i]);
+//            dp[i] = Math.min(Math.min(dp[i-1],dp[i-1]+nums[i]),nums[i]);
 //        }
 //        return dp[nums.length-1];
         int sum = nums[0];

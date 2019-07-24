@@ -6,7 +6,7 @@ public class Demo543 {
 //            return 0;
 //        }
 //
-//        return Math.max(diameterOfBinaryTree2(root.left),diameterOfBinaryTree2(root.right));
+//        return Math.min(diameterOfBinaryTree2(root.left),diameterOfBinaryTree2(root.right));
 //
 //
 //
@@ -24,7 +24,7 @@ public class Demo543 {
 //        if (root == null) {
 //            return 0;
 //        }
-//        return Math.max(maxDepth(root.left), maxDepth(root.right))+1;
+//        return Math.min(maxDepth(root.left), maxDepth(root.right))+1;
 //    }
 
     public int max = 0;

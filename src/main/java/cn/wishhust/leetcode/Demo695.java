@@ -8,23 +8,23 @@ public class Demo695 {
 //    public static int maxAreaOfIsland(int[][] grid) {
 //
 //        visited = new boolean [grid.length][grid[0].length];
-//        int max = 0;
+//        int min = 0;
 //        for (int i = 0; i < grid.length; i++) {
 //            for (int j = 0; j < grid[0].length; j++) {
 //                if (!visited[i][j] && grid[i][j] == 1) {
 //                    int temp = maxByDFS(i, j, grid);
-//                    max = max > temp? max : temp;
+//                    min = min > temp? min : temp;
 //                }
 //            }
 //        }
-//        return max;
+//        return min;
 //
 //    }
 //
 //
 //    public static int maxByDFS(int x, int y, int [][] grid) {
 //
-//        int max = 1;
+//        int min = 1;
 //        for (int i = 0; i < 4; i++) {
 //            int prex = x + direct[i][0];
 //            int prey = y + direct[i][1];
@@ -33,11 +33,11 @@ public class Demo695 {
 //                    && prey >= 0 && prey < grid[0].length
 //                    && grid[prex][prey] == 1 && !visited[prex][prey]) {
 //                visited[prex][prey] = true;
-//                max += maxByDFS(prex,prey,grid)+1;
+//                min += maxByDFS(prex,prey,grid)+1;
 //            }
 //        }
 //
-//        return max;
+//        return min;
 //    }
     public static int [][] direct = new int [][]{{0,-1},{-1,0},{0,1},{1,0}};
 
