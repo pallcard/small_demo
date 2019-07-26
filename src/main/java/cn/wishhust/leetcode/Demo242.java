@@ -28,4 +28,25 @@ public class Demo242 {
         }
         return true;
     }
+    public boolean isAnagram2(String s, String t) {
+        // 本题s，t中均为小写字母，故可以使用一个数组来存放字符出现次数
+        int [] cnts = new int[26];
+
+        for (int i = 0; i < s.length(); i++) {
+            cnts[s.charAt(i)-'a']++;
+        }
+
+        for (int i = 0; i < t.length(); i++) {
+            cnts[t.charAt(i)-'a']--;
+        }
+        for (int i = 0; i < cnts.length; i++) {
+            if (cnts[i] != 0) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+
 }
