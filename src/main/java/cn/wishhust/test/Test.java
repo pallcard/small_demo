@@ -21,6 +21,11 @@ public class Test {
         Integer i = 128;
         Integer j = 128;
         System.out.println(i==j);
+        int [] a = new int [10];
+        for (int t : a) {
+            System.out.print(t+" ");
+        }
+        System.out.println("a b a");
 //        TreeMap
     }
 }
