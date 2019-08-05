@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo696 {
     public int countBinarySubstrings(String s) {
         int count = 0;

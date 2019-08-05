@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo680 {
     public static boolean validPalindrome(String s) {
         int i = 0;

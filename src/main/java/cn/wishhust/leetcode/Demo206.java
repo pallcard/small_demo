@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo206 {
     public ListNode reverseList(ListNode head) {
         ListNode newHead = new ListNode(0);

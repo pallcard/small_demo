@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo160 {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         int lengthA = 0;

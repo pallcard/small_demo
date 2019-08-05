@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 /**
  *
  * 注意点

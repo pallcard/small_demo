@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo326 {
 
     public static  boolean isPowerOfThree(int n) {

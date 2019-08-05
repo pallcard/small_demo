@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo121 {
     public static int maxProfit(int[] prices) {
         if(prices.length == 0) {

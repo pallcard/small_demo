@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo153 {
     public int findMin(int[] nums) {
         int left = 0;

@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo671 {
     int min = Integer.MAX_VALUE;
     int min2 = Integer.MAX_VALUE;

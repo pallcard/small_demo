@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo543 {
 //    public int diameterOfBinaryTree(TreeNode root) {
 //        if (root == null) {

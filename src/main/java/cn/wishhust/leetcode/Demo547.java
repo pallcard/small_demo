@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo547 {
 
 //    public static int [][] direct = new int [][]{{0,-1},{-1,0},{0,1},{1,0}};

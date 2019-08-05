@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo236 {
 
     public static boolean isChildNode(TreeNode root, TreeNode p) {

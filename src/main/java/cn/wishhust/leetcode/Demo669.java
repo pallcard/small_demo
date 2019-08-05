@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo669 {
     public TreeNode trimBST(TreeNode root, int L, int R) {
         if(null == root) {

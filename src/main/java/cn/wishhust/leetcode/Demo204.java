@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo204 {
     public static int countPrimes(int n) {
         int count = 0;

@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo647 {
     public int countSubstrings(String s) {
         int count = 0;

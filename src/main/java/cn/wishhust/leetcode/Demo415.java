@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo415 {
     public String addStrings(String num1, String num2) {
         StringBuilder sb = new StringBuilder();

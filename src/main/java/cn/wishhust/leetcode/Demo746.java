@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo746 {
     public static int minCostClimbingStairs(int[] cost) {
 

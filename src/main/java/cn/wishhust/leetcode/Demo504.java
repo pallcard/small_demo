@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo504 {
     public String convertToBase7(int num) {
         if (num == 0) {

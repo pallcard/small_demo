@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo687 {
     int path = 0;
     public int longestUnivaluePath(TreeNode root) {

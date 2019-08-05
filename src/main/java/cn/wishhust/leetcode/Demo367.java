@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo367 {
 
     // 16 = 1 + 3 + 5 + 7

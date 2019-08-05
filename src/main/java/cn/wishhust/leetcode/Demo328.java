@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo328 {
     public ListNode oddEvenList(ListNode head) {
         ListNode list1 = head;

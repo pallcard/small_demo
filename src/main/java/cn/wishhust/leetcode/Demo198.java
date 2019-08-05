@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo198 {
     public static int rob(int[] nums) {
         int n = nums.length;

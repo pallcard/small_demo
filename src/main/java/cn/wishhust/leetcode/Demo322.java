@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo322 {
     public static int coinChange(int[] coins, int amount) {
 

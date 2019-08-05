@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo744 {
 
     public static char nextGreatestLetter(char[] letters, char target) {

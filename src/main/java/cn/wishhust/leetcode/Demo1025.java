@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo1025 {
     public static boolean divisorGame(int N) {
         boolean[] dp = new boolean[N + 1];

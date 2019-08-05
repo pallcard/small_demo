@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo168 {
     public String convertToTitle(int n) {
         StringBuilder sb = new StringBuilder();

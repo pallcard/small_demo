@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.algorithm.dp;
-
+package cn.wishhust.algorithm.dp;
 public class CardGame1 {
     public static int cardGame(int[] A, int n) {
 

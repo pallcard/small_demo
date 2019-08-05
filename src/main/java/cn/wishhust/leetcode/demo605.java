@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class demo605 {
 
     public boolean canPlaceFlowers(int[] flowerbed, int n) {

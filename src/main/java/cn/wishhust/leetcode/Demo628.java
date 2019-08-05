@@ -1,5 +1,4 @@
-package main.java.cn.wishhust.leetcode;
-
+package cn.wishhust.leetcode;
 public class Demo628 {
     public int maximumProduct(int[] nums) {
         int max = Integer.MIN_VALUE;
