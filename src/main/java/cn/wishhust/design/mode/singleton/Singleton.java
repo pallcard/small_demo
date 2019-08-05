@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.design.mode.singleton;
+package cn.wishhust.design.mode.singleton;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;

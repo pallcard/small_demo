@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.io.socket;
+package cn.wishhust.io.socket;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;

@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.leetcode;
+package cn.wishhust.leetcode;
 
 public class Demo009 {
     public boolean isPalindrome(int x) {

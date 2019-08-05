@@ -1,6 +1,4 @@
-package main.java.cn.wishhust.design.mode.decorator;
-
-import java.util.IdentityHashMap;
+package cn.wishhust.design.mode.decorator;
 
 public class Test {
     public static void main(String[] args) {

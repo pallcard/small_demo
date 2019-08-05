@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.leetcode;
+package cn.wishhust.leetcode;
 
 public class Demo088 {
     public void merge(int[] nums1, int m, int[] nums2, int n) {

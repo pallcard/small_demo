@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.design.mode.proxy;
+package cn.wishhust.design.mode.proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

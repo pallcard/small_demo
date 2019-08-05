@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.apply;
+package cn.wishhust.apply;
 
 
 import java.util.ArrayList;

@@ -1,6 +1,5 @@
-package main.java.cn.wishhust.design.mode.proxy;
+package cn.wishhust.design.mode.proxy;
 
-import com.sun.tools.internal.xjc.reader.xmlschema.bindinfo.BIConversion;
 
 public class UserProxy implements IUserDao {
 

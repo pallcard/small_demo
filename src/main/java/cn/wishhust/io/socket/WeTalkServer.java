@@ -1,7 +1,7 @@
-package main.java.cn.wishhust.io.socket;
+package cn.wishhust.io.socket;
 
-import static main.java.cn.wishhust.io.socket.WeTalkUtils.recvMsg;
-import static main.java.cn.wishhust.io.socket.WeTalkUtils.sendMsg;
+import static cn.wishhust.io.socket.WeTalkUtils.recvMsg;
+import static cn.wishhust.io.socket.WeTalkUtils.sendMsg;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

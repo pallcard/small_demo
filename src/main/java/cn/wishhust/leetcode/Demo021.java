@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.leetcode;
+package cn.wishhust.leetcode;
 
 public class Demo021 {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {

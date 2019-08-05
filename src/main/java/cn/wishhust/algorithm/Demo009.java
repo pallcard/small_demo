@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.algorithm;
+package cn.wishhust.algorithm;
 
 /**
  * 斐波那契数列，

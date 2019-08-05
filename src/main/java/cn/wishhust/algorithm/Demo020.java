@@ -1,6 +1,5 @@
-package main.java.cn.wishhust.algorithm;
+package cn.wishhust.algorithm;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 /**

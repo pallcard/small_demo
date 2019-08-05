@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.jmm;
+package cn.wishhust.jmm;
 
 import java.util.HashSet;
 import java.util.Set;

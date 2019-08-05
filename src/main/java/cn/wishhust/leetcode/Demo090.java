@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.leetcode;
+package cn.wishhust.leetcode;
 
 import java.util.ArrayList;
 import java.util.Arrays;

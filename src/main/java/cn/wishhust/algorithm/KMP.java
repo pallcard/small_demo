@@ -1,7 +1,4 @@
-package main.java.cn.wishhust.algorithm;
-
-import java.util.ArrayList;
-import java.util.Vector;
+package cn.wishhust.algorithm;
 
 public class KMP {
 

@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.test;
+package cn.wishhust.test;
 
 import java.net.SocketTimeoutException;
 import java.util.TreeMap;
@@ -18,14 +18,27 @@ public class Test {
 //                break;
 //        }
 
-        Integer i = 128;
-        Integer j = 128;
-        System.out.println(i==j);
-        int [] a = new int [10];
-        for (int t : a) {
-            System.out.print(t+" ");
-        }
-        System.out.println("a b a");
+//        Integer i = 128;
+//        Integer j = 128;
+//        System.out.println(i==j);
+//        int [] a = new int [10];
+//        for (int t : a) {
+//            System.out.print(t+" ");
+//        }
+//        System.out.println("a b a");
 //        TreeMap
+
+        int n = fun2(fun1(101)) % 4;
+        System.out.println(1);
+        System.out.println(n);
+    }
+
+
+    public static int fun1(int i) {
+        return i <= 1 ? 1: fun1(i-1)+fun1(i-3);
+    }
+
+    public static int fun2(int i) {
+        return ((i>>8) & 0x64) & (((i << 8) & 0x9346)>>8);
     }
 }

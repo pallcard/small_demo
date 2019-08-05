@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.leetcode;
+package cn.wishhust.leetcode;
 
 public class Demo404 {
     public int sumOfLeftLeaves(TreeNode root) {

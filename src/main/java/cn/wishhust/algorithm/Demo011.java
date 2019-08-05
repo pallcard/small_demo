@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.algorithm;
+package cn.wishhust.algorithm;
 
 /**
  * 旋转数组(非递减)的最小数

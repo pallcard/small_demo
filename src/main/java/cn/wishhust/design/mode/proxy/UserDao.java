@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.design.mode.proxy;
+package cn.wishhust.design.mode.proxy;
 
 public class UserDao implements IUserDao{
 

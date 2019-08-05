@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.design.mode.decorator;
+package cn.wishhust.design.mode.decorator;
 
 public class Coffee implements IDrink{
     @Override

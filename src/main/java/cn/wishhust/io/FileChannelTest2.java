@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.io;
+package cn.wishhust.io;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;

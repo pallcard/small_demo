@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.leetcode;
+package cn.wishhust.leetcode;
 
 public class Demo083 {
     public ListNode deleteDuplicates(ListNode head) {

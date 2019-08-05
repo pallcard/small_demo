@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.design.mode.template;
+package cn.wishhust.design.mode.template;
 
 public class Test {
     public static void main(String[] args) {

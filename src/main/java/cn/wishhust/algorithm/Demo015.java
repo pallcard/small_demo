@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.algorithm;
+package cn.wishhust.algorithm;
 
 /**
  * 二进制中1的个数

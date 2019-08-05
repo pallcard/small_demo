@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.reflection;
+package cn.wishhust.reflection;
 
 import java.lang.reflect.Constructor;
 

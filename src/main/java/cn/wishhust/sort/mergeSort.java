@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.sort;
+package cn.wishhust.sort;
 
 
 /**

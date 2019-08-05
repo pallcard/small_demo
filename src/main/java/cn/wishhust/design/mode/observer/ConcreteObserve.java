@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.design.mode.observer;
+package cn.wishhust.design.mode.observer;
 
 public class ConcreteObserve implements Observer {
 

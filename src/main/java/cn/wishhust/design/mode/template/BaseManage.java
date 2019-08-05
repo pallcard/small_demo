@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.design.mode.template;
+package cn.wishhust.design.mode.template;
 
 public abstract class BaseManage {
     public void action(String name, String method) {

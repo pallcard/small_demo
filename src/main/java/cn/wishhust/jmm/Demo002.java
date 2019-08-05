@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.jmm;
+package cn.wishhust.jmm;
 
 public class Demo002 {
 

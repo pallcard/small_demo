@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.io.socket;
+package cn.wishhust.io.socket;
 
 
 import java.io.IOException;
@@ -6,8 +6,8 @@ import java.net.InetSocketAddress;
 import java.nio.channels.SocketChannel;
 import java.util.Scanner;
 
-import static main.java.cn.wishhust.io.socket.WeTalkUtils.recvMsg;
-import static main.java.cn.wishhust.io.socket.WeTalkUtils.sendMsg;
+import static cn.wishhust.io.socket.WeTalkUtils.recvMsg;
+import static cn.wishhust.io.socket.WeTalkUtils.sendMsg;
 
 /**
  * WeTalk 客户端

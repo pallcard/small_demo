@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.design.mode.strategy;
+package cn.wishhust.design.mode.strategy;
 
 /**
  * 存放到文件中

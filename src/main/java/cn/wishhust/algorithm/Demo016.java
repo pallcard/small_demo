@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.algorithm;
+package cn.wishhust.algorithm;
 
 /**
  * 正则表达式匹配问题

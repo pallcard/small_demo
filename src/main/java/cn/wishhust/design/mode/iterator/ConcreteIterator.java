@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.design.mode.iterator;
+package cn.wishhust.design.mode.iterator;
 
 public class ConcreteIterator<T> implements Iterator {
 

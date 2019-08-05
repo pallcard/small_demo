@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.leetcode;
+package cn.wishhust.leetcode;
 
 public class Demo096 {
     // f(n) = f(0) * f(n-1) + f(1)*f(n-2) + ...+ f(n-1)*f(0)

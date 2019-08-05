@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.design.mode.decorator;
+package cn.wishhust.design.mode.decorator;
 
 public interface IDrink {
     double cost();

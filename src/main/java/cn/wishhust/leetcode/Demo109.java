@@ -1,4 +1,4 @@
-package main.java.cn.wishhust.leetcode;
+package cn.wishhust.leetcode;
 
 public class Demo109 {
     public TreeNode sortedListToBST(ListNode head) {
