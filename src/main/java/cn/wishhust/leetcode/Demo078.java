@@ -25,5 +25,6 @@ public class Demo078 {
             integers.remove(integers.size()-1);
 
         }
+
     }
 }
