@@ -7,7 +7,6 @@ public class CyclicBarrierTest2 {
 
         CyclicBarrier cyclicBarrier = new CyclicBarrier(2);
 
-
         Thread thread1 = new Thread(() -> {
             try {
                 cyclicBarrier.await();
@@ -24,6 +23,7 @@ public class CyclicBarrierTest2 {
         try {
             cyclicBarrier.await();
         } catch (Exception e) {
+            // 阻塞线程是否被中断。
             System.out.println(cyclicBarrier.isBroken());
             e.printStackTrace();
         }

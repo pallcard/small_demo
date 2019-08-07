@@ -29,6 +29,7 @@ public class BankWaterService implements Runnable{
         for (int i = 0; i < 4; i++) {
             executor.execute(()->{
                 sheetBankWaterCount.put(Thread.currentThread().getName(), 1);
+                System.out.println(Thread.currentThread().getName() + 1);
                 try {
                     cyclicBarrier.await();
                 } catch (InterruptedException e) {

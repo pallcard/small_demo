@@ -24,11 +24,15 @@ public class CountDownLatchTest {
         Thread thread2 = new Thread(() -> {
             System.out.println("执行2");
             countDownLatch.countDown();
+            for(int i = 0; i < 1000; i++) {
+                System.out.println("等待"+ (i+1));
+            }
+//            countDownLatch.countDown();
         });
         thread1.start();
         thread2.start();
 
-        countDownLatch.await(10, TimeUnit.MILLISECONDS);
+        countDownLatch.await();
 
         System.out.println("主线程");
     }

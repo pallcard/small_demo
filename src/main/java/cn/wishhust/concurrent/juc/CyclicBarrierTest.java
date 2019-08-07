@@ -19,6 +19,10 @@ public class CyclicBarrierTest {
         });
 
         Thread thread1 = new Thread(() -> {
+
+            for (int i = 0; i < 10; i++) {
+                System.out.println("到达屏障前");
+            }
             try {
                 cyclicBarrier.await();
                 cyclicBarrier2.await();
