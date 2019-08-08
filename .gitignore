@@ -24,3 +24,7 @@
 .settings
 .springBeans
 .sts4-cache
+
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
