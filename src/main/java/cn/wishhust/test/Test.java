@@ -31,6 +31,7 @@ public class Test {
         int n = fun2(fun1(101)) % 4;
         System.out.println(1);
         System.out.println(n);
+
     }
 
 

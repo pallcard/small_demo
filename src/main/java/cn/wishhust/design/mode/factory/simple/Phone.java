@@ -1,4 +1,4 @@
-package cn.wishhust.design.mode.factory;
+package cn.wishhust.design.mode.factory.simple;
 
 public class Phone extends Product{
 
