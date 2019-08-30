@@ -1,6 +1,8 @@
 package cn.wishhust.test;
 
+import java.util.HashMap;
 import java.util.Scanner;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class Test02 {
     public static void main(String[] args) {

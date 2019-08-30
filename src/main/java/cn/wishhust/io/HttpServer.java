@@ -25,7 +25,7 @@ public class HttpServer {
             Iterator<SelectionKey> keyIter = selector.selectedKeys().iterator();
             while (keyIter.hasNext()) {
                 SelectionKey key = keyIter.next();
-                new Thread(new HttpHandle())
+//                new Thread(new HttpHandle())
             }
 
 
