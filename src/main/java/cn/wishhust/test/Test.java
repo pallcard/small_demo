@@ -28,9 +28,11 @@ public class Test {
 //        System.out.println("a b a");
 //        TreeMap
 
-        int n = fun2(fun1(101)) % 4;
-        System.out.println(1);
-        System.out.println(n);
+//        int n = fun2(fun1(101)) % 4;
+//        System.out.println(1);
+//        System.out.println(n);
+
+        System.out.println(15/Math.pow(3,7));
 
     }
 
