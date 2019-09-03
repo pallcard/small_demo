@@ -2,7 +2,7 @@ package cn.wishhust.design.mode.aop;
 
 import java.lang.reflect.Method;
 
-import static com.sun.tools.internal.xjc.reader.Ring.begin;
+//import static com.sun.tools.internal.xjc.reader.Ring.begin;
 
 public abstract class AbstractProxy implements Proxy {
     @Override
@@ -25,6 +25,9 @@ public abstract class AbstractProxy implements Proxy {
         } finally {
             end();
         }
+    }
+
+    public void begin() {
     }
 
     public boolean filter(Class<?> cls, Method method, Object[] params) {

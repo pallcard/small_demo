@@ -1,7 +1,5 @@
 package cn.wishhust.sort;
 
-import sun.security.util.Length;
-
 /**
  * 堆排序
  *
