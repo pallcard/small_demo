@@ -14,5 +14,7 @@ public class Client {
         GreetingImpl greetingProxy = proxyManager.createProxy();
 
         greetingProxy.sayHello("Jack");
+        System.out.println("------------------");
+        System.out.println(greetingProxy.sayHello2("mike"));
     }
 }

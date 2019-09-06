@@ -2,7 +2,6 @@ package cn.wishhust.design.mode.aop;
 
 import java.lang.reflect.Method;
 
-//import static com.sun.tools.internal.xjc.reader.Ring.begin;
 
 public abstract class AbstractProxy implements Proxy {
     @Override
