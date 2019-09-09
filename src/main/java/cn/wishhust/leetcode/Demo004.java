@@ -1,24 +1,21 @@
 package cn.wishhust.leetcode;
 
+/**
+ * 4. 寻找两个有序数组的中位数
+ * 给定两个大小为 m 和 n 的有序数组 nums1 和 nums2。
+ * 请你找出这两个有序数组的中位数，并且要求算法的时间复杂度为 O(log(m + n))。
+ * 你可以假设 nums1 和 nums2 不会同时为空。
+ *
+ */
+
+
 public class Demo004 {
 
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
-//        int low1 = 0, high1 = nums2.length-1;
-//        int low2 = 0, high2 = nums2.length-1;
-//        int mid1 = low1 + (high1 - low1) / 2;
-//        int mid2 = low2 + (high2 - low2) / 2;
-//        while (low1 < high1 && low2 < high2 && nums1[mid1] != nums2[mid2]) {
-//            if (nums1[mid1] < nums2[mid2]) {
-//                low1 = mid1;
-//                high2 = mid2;
-//            } else {
-//                high1 = mid1;
-//                low2 = mid2;
-//            }
-//        }
 
         int m = nums1.length;
         int n = nums2.length;
+        // 使得 m < n
         if (m > n) {
             int [] temp = nums1;
             nums1 = nums2;

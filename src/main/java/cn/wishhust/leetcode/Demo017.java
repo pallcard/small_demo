@@ -3,6 +3,10 @@ package cn.wishhust.leetcode;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 17. 电话号码的字母组合
+ * 深度优先遍历
+ */
 public class Demo017 {
 
     public static String[] map = {
