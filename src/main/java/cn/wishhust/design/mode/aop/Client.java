@@ -9,6 +9,7 @@ public class Client {
         proxyList.add(new BeforeProxy());
         proxyList.add(new AfterProxy());
         proxyList.add(new TestProxy());
+        proxyList.add(new Before2Proxy());
 
         ProxyManager proxyManager = new ProxyManager(GreetingImpl.class, proxyList);
         GreetingImpl greetingProxy = proxyManager.createProxy();

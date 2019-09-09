@@ -2,10 +2,10 @@ package cn.wishhust.design.mode.aop;
 
 import java.lang.reflect.Method;
 
-public class BeforeProxy extends AbstractProxy {
+public class Before2Proxy extends AbstractProxy {
 
     @Override
     protected void before(Class<?> cls, Method method, Object[] params) {
-        System.out.println("Before");
+        System.out.println("Before2");
     }
 }

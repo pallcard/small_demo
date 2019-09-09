@@ -3,19 +3,24 @@ package cn.wishhust.design.mode.aop;
 import java.lang.reflect.Method;
 
 public class TestProxy extends AbstractProxy {
-    public void before(Class<?> cls, Method method, Object[] params) {
+
+    @Override
+    protected void before(Class<?> cls, Method method, Object[] params) {
         System.out.println("before---test");
     }
 
-    public void after(Class<?> cls, Method method, Object[] params) {
+    @Override
+    protected void after(Class<?> cls, Method method, Object[] params) {
         System.out.println("after---test");
     }
 
-    public void error(Class<?> cls, Method method, Object[] params, Throwable e) {
+    @Override
+    protected void error(Class<?> cls, Method method, Object[] params, Throwable e) {
         System.out.println("error---test");
     }
 
-    public void end() {
+    @Override
+    protected void end() {
         System.out.println("end---test");
     }
 }

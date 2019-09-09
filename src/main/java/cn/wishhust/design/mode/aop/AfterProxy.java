@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 public class AfterProxy extends AbstractProxy {
 
     @Override
-    public void after(Class<?> cls, Method method, Object[] params) {
+    protected void after(Class<?> cls, Method method, Object[] params) {
         System.out.println("After");
     }
 }

@@ -26,22 +26,22 @@ public abstract class AbstractProxy implements Proxy {
         }
     }
 
-    public void begin() {
+    protected void begin() {
     }
 
-    public boolean filter(Class<?> cls, Method method, Object[] params) {
+    protected boolean filter(Class<?> cls, Method method, Object[] params) {
         return true;
     }
 
-    public void before(Class<?> cls, Method method, Object[] params) {
+    protected void before(Class<?> cls, Method method, Object[] params) {
     }
 
-    public void after(Class<?> cls, Method method, Object[] params) {
+    protected void after(Class<?> cls, Method method, Object[] params) {
     }
 
-    public void error(Class<?> cls, Method method, Object[] params, Throwable e) {
+    protected void error(Class<?> cls, Method method, Object[] params, Throwable e) {
     }
 
-    public void end() {
+    protected void end() {
     }
 }
