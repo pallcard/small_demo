@@ -3,6 +3,23 @@ package cn.wishhust.leetcode;
 import java.util.Arrays;
 import java.util.Stack;
 
+/**
+ * 32. 最长有效括号
+ * 给定一个只包含 '(' 和 ')' 的字符串，找出最长的包含有效括号的子串的长度。
+ *
+ * 示例 1:
+ *
+ * 输入: "(()"
+ * 输出: 2
+ * 解释: 最长有效括号子串为 "()"
+ * 示例 2:
+ *
+ * 输入: ")()())"
+ * 输出: 4
+ * 解释: 最长有效括号子串为 "()()"
+ *
+ * 通过栈将所用匹配的括号的下标存放在 integer数组中，然后将integer排序，找到最长的连续的数字串。
+ */
 public class Demo032 {
     public static int longestValidParentheses(String s) {
         Stack<Integer> stack = new Stack<>();
