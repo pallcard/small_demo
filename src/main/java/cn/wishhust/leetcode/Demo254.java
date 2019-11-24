@@ -3,6 +3,12 @@ package cn.wishhust.leetcode;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *
+ * 254. 因子的组合
+ *
+ */
+
 public class Demo254 {
 
     private static List<List<Integer>> list = new ArrayList<>();
