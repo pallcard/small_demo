@@ -1,8 +1,6 @@
 package cn.wishhust.test.dianxing;
 
-import org.apache.tools.ant.filters.EscapeUnicode;
-
-import java.util.Arrays;
+import java.util.PriorityQueue;
 import java.util.Scanner;
 
 public class Test1 {
@@ -14,10 +12,21 @@ public class Test1 {
         for (int i = 0; i < n; i++) {
             a[i] = scanner.nextInt();
         }
+        System.out.println(median(a));
+    }
 
-        Arrays.sort(a);
-
-        System.out.println(a[n/2]);
-
+    public static int median(int[] array){
+        int heapSize = array.length/2 + 1;
+        PriorityQueue<Integer> heap = new PriorityQueue<>(heapSize);
+        for(int i=0; i<heapSize; i++){
+            heap.add(array[i]);
+        }
+        for(int i=heapSize; i<array.length; i++){
+            if(heap.peek()<array[i]){
+                heap.poll();
+                heap.add(array[i]);
+            }
+        }
+        return heap.peek();
     }
 }
