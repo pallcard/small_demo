@@ -2,24 +2,25 @@ package cn.wishhust.leetcode;
 import java.util.Stack;
 
 /**
- * 155. ×îÐ¡Õ»
+ * 155. æœ€å°æ ˆ
  *
- * Éè¼ÆÒ»¸öÖ§³Ö push£¬pop£¬top ²Ù×÷£¬²¢ÄÜÔÚ³£ÊýÊ±¼äÄÚ¼ìË÷µ½×îÐ¡ÔªËØµÄÕ»¡£
+ * è®¾è®¡ä¸€ä¸ªæ”¯æŒ pushï¼Œpopï¼Œtop æ“ä½œï¼Œå¹¶èƒ½åœ¨å¸¸æ•°æ—¶é—´å†…æ£€ç´¢åˆ°æœ€å°å…ƒç´ çš„æ ˆã€‚
  *
- * push(x)?-- ½«ÔªËØ x ÍÆÈëÕ»ÖÐ¡£
- * pop()?-- É¾³ýÕ»¶¥µÄÔªËØ¡£
- * top()?-- »ñÈ¡Õ»¶¥ÔªËØ¡£
- * getMin() -- ¼ìË÷Õ»ÖÐµÄ×îÐ¡ÔªËØ¡£
- * Ê¾Àý:
+ * push(x)Â -- å°†å…ƒç´  x æŽ¨å…¥æ ˆä¸­ã€‚
+ * pop()Â -- åˆ é™¤æ ˆé¡¶çš„å…ƒç´ ã€‚
+ * top()Â -- èŽ·å–æ ˆé¡¶å…ƒç´ ã€‚
+ * getMin() -- æ£€ç´¢æ ˆä¸­çš„æœ€å°å…ƒç´ ã€‚
+ * ç¤ºä¾‹:
  *
  * MinStack minStack = new MinStack();
  * minStack.push(-2);
  * minStack.push(0);
  * minStack.push(-3);
- * minStack.getMin();   --> ·µ»Ø -3.
+ * minStack.getMin();   --> è¿”å›ž -3.
  * minStack.pop();
- * minStack.top();      --> ·µ»Ø 0.
- * minStack.getMin();   --> ·µ»Ø -2.
+ * minStack.top();      --> è¿”å›ž 0.
+ * minStack.getMin();   --> è¿”å›ž -2.
+ *
  *
  */
 

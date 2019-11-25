@@ -2,24 +2,25 @@ package cn.wishhust.leetcode;
 
 /**
  *
- * 208. ÊµÏÖ Trie (Ç°×ºÊ÷)
+ * 208. å®ç° Trie (å‰ç¼€æ ‘)
  *
- * ÊµÏÖÒ»¸ö Trie (Ç°×ºÊ÷)£¬°üº¬?insert,?search, ºÍ?startsWith?ÕâÈı¸ö²Ù×÷¡£
+ * å®ç°ä¸€ä¸ª Trie (å‰ç¼€æ ‘)ï¼ŒåŒ…å«Â insert,Â search, å’ŒÂ startsWithÂ è¿™ä¸‰ä¸ªæ“ä½œã€‚
  *
- * Ê¾Àı:
+ * ç¤ºä¾‹:
  *
  * Trie trie = new Trie();
  *
  * trie.insert("apple");
- * trie.search("apple");   // ·µ»Ø true
- * trie.search("app");     // ·µ»Ø false
- * trie.startsWith("app"); // ·µ»Ø true
+ * trie.search("apple");   // è¿”å› true
+ * trie.search("app");     // è¿”å› false
+ * trie.startsWith("app"); // è¿”å› true
  * trie.insert("app");
- * trie.search("app");     // ·µ»Ø true
- * ËµÃ÷:
+ * trie.search("app");     // è¿”å› true
+ * è¯´æ˜:
  *
- * Äã¿ÉÒÔ¼ÙÉèËùÓĞµÄÊäÈë¶¼ÊÇÓÉĞ¡Ğ´×ÖÄ¸?a-z?¹¹³ÉµÄ¡£
- * ±£Ö¤ËùÓĞÊäÈë¾ùÎª·Ç¿Õ×Ö·û´®¡£
+ * ä½ å¯ä»¥å‡è®¾æ‰€æœ‰çš„è¾“å…¥éƒ½æ˜¯ç”±å°å†™å­—æ¯Â a-zÂ æ„æˆçš„ã€‚
+ * ä¿è¯æ‰€æœ‰è¾“å…¥å‡ä¸ºéç©ºå­—ç¬¦ä¸²ã€‚
+ *
  *
  */
 
